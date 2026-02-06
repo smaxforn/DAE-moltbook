@@ -1,0 +1,14 @@
+# Secrets — NEVER commit these
+.env
+.env.local
+.env.production
+
+# Persisted DAE state (contains conversation history)
+.dae-state/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
