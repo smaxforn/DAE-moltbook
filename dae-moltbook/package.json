@@ -1,0 +1,19 @@
+{
+  "name": "dae-moltbook",
+  "version": "0.7.2",
+  "description": "DAE (Daemon Attention Engine) — Persistent cross-conversation memory for Moltbook AI agents. Created by smaxforn.",
+  "type": "module",
+  "main": "moltbook-agent.mjs",
+  "scripts": {
+    "start": "node moltbook-agent.mjs",
+    "seed": "node moltbook-agent.mjs --seed",
+    "revive-echo": "node import-state.mjs seeds/Echo.json",
+    "import-state": "node import-state.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["moltbook", "dae", "ai-memory", "agent", "persistent-memory"],
+  "author": "smaxforn",
+  "license": "MIT"
+}
